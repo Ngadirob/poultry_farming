@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bob's poultry farm</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Poultry Keeping & Supply</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#products">Our Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Our Poultry Business!</h2>
+        <p>Providing high-quality poultry products and services for your needs.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are dedicated to promoting sustainable poultry keeping practices and supplying healthy poultry products to our customers.</p>
+    </section>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product">
+            <img src="eggs.jpg" alt="Fresh Eggs">
+            <h3>Fresh Eggs</h3>
+            <p>Locally sourced, organic eggs from free-range chickens.</p>
+        </div>
+        <div class="product">
+            <img src="chickens.jpg" alt="Live Chickens">
+            <h3>Live Chickens</h3>
+            <p>Healthy, vaccinated chickens for backyard farming or commercial purposes.</p>
+        </div>
+        <!-- Add more products as needed -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or want to place an order? Reach out to us!</p>
+        <form action="submit.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>SamuelMumbi&company; 2024 Poultry Keeping & Supply</p>
+    </footer>
+</body>
+</html>
